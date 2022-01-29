@@ -9,6 +9,15 @@
   <title>Document</title>
 </head>
 <body>
+  @if (count($errors) > 0)
+  <ul>
+      @foreach($errors->all() as $error)
+      <li class="error">
+      {{$error}}
+      </li>
+      @endforeach
+  </ul>
+  @endif
   <div class="container">
     <div class="todo">
     <p class="title">Todo List</p>

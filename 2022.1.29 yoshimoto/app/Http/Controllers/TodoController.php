@@ -14,7 +14,7 @@ class TodoController extends Controller
     }
     public function create(Request $request)
     {
-        //$this->validate($request,Todo::$rules);
+        $this->validate($request,Todo::$rules);
         $form = $request->all();
         
         Todo::create($form);
