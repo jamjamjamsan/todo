@@ -1,0 +1,90 @@
+body {
+  background-color: rgb(101, 31, 182);
+}
+.container {
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(101, 31, 182);
+  position: relative;
+}
+.todo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  width: 50vw;
+}
+.title {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.create_form {
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 20px;
+}
+.create_input {
+  width: 80%;
+  border-radius: 3px;
+  font-size: 30px;
+}
+.create_btn {
+  border: 1px solid purple;
+  border-radius: 3px;
+  color: purple;
+  width: 10%;
+  cursor: pointer;
+}
+tr {
+  height: 40px;
+}
+table {
+  text-align: center;
+  width: 100%;
+}
+.input-update {
+  width: 90%;
+      padding: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      appearance: none;
+      font-size: 14px;
+      outline: none;
+}
+.update_btn {
+  border: 1px solid rgb(224, 98, 52);
+  color: rgb(224, 98, 52);
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+.delete_btn {
+  border-radius: 3px;
+  border: 1px solid rgb(26, 218, 240);
+  color: rgb(26, 218, 240);
+  margin: 0 auto;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+.create_btn:hover {
+  border: 1px solid purple;
+  color: white;
+  background-color:purple ;
+}
+.update_btn:hover {
+  border: 1px solid rgb(224, 98, 52);
+  color: white;
+  background-color: rgb(224, 98, 52);
+   
+}
+.delete_btn:hover {
+  border: 1px solid rgb(26, 218, 240);
+  color: white;
+  background-color: rgb(26, 218, 240);
+}
